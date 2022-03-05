@@ -12,3 +12,21 @@
     height: 300px;
     width: 300px;
 }
+
+body{
+    background: url(img/background.image.jpg) ;
+}
+
+.Handles{
+    display: flex;
+    flex-direction: row;
+}
+
+.Colors{
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar {
+    float: right;
+}
