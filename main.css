@@ -1,11 +1,12 @@
 .handle{
     height: 250px;
-    width: 225px;
+    width: 300px;
+
 }
 
 .dumbpic{
-    height: 225px;
-    width: 325px;
+    height: 250px;
+    width: 300px;
 }
 
 .sabercolor{
@@ -14,19 +15,62 @@
 }
 
 body{
-    background: url(img/background.image.jpg) ;
+    background-image: url(Assets/background.image.jpg);
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
 }
 
 .Handles{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .Colors{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #sidebar {
     float: right;
+    margin: 1em;
+    padding: 1em;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(6, 80, 114);
+    border-left: 4px solid turquoise;
+    
 }
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size:xx-large;
+}
+
+p{
+    line-height: 1em;
+}
+
+.panel{
+    margin: 1.0em 1.0em 1em 1em;
+    background-color: whitesmoke;
+    width: 300px;
+    
+}
+header{
+    background: url(Assets/header.background.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+button{
+    color: darkblue;
+    background-color: lightblue;
+    display: inline-block;
+    margin: .75em;
+    text-transform: uppercase;
+}
+
