@@ -46,6 +46,13 @@ body{
     
 }
 
+#main h1{
+    color:turquoise;
+    background-color: whitesmoke;
+    width: 500px;
+    margin: 1em 1em 1em 8.60em;
+}
+
 h1{
     color: whitesmoke;
     text-align: center;
