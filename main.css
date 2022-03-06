@@ -15,11 +15,12 @@
 }
 
 body{
-    background-image: url(Assets/background.image.jpg);
+    background-image: url(Assets/falcon.jpg);
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     background-size: 100% 100%;
     -o-background-size: 100% 100%;
+    margin: 0 0 0 0;
 }
 
 .Handles{
@@ -39,7 +40,7 @@ body{
     margin: 1em;
     padding: 1em;
     width: 300px;
-    height: 600px;
+    height: 1065px;
     background-color: rgb(6, 80, 114);
     border-left: 4px solid turquoise;
     
@@ -59,11 +60,16 @@ p{
     margin: 1.0em 1.0em 1em 1em;
     background-color: whitesmoke;
     width: 300px;
+    border: whitesmoke solid 3px;
+    border-radius: 6px;
     
 }
 header{
-    background: url(Assets/header.background.jpg) no-repeat;
+    padding: 2em 1em 2em;
+   /* margin: 1em 0 0.5em;*/
+    background: black url(Assets/alongtime.jpg) no-repeat center 0px;
     background-size: 100% 100%;
+    height: 250px;
 }
 
 button{
@@ -74,3 +80,62 @@ button{
     text-transform: uppercase;
 }
 
+nav{
+    font-size: x-large;
+}
+
+nav li a{
+    color: turquoise;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+#login{
+    float: right;
+    border: turquoise solid 2px;
+    border-radius: 10px;
+}
+
+#login li{
+    display: inline-block;
+    margin: 0 .5em 0 .5em;
+}
+
+#navigation{
+    margin: 5em 0 0 9em;
+}
+
+#navigation li{
+    display: inline-block;
+    margin: 1em .5em 0 .5em;
+}
+
+nav#login ul li.acctNav::before, nav#login ul li input#search::before {
+    content: " | ";
+    padding-right: .7em;
+    color: whitesmoke;
+}
+
+footer{
+    background-color: turquoise;
+    text-align: center;
+}
+
+footer li{
+    display: inline-block;
+    margin: .5em .5em .5em;
+}
+
+footer a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer ul li::before{
+    content: "| ";
+    padding-right: 0.7em;
+}
